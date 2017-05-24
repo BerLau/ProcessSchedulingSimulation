@@ -2,8 +2,6 @@
 *Debug/
 *Release/
 *x64/
-ProcessSchedulingSimulation.VC.db
-ProcessSchedulingSimulation.VC.VC.opendb
+*.db
+*.opendb
 ProcessSchedulingSimulation.sln
-*.vcxproj
-*.filters
