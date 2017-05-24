@@ -110,6 +110,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="entrace.cpp" />
+    <ClCompile Include="InterruptRegister.cpp" />
+    <ClCompile Include="IOResource.cpp" />
+    <ClCompile Include="LeisureProcess.cpp" />
+    <ClCompile Include="MasterProcess.cpp" />
+    <ClCompile Include="MUtil.cpp" />
+    <ClCompile Include="PQueues.cpp" />
+    <ClCompile Include="PublicResource.cpp" />
+    <ClCompile Include="Resource.cpp" />
+    <ClCompile Include="SCPU.cpp" />
+    <ClCompile Include="SharedResource.cpp" />
+    <ClCompile Include="SProcess.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InterruptRegister.h" />
+    <ClInclude Include="IOResource.h" />
+    <ClInclude Include="LeisureProcess.h" />
+    <ClInclude Include="MasterProcess.h" />
+    <ClInclude Include="MUtil.h" />
+    <ClInclude Include="PQueues.h" />
+    <ClInclude Include="PublicResource.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SCPU.h" />
+    <ClInclude Include="SharedResource.h" />
+    <ClInclude Include="SProcess.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

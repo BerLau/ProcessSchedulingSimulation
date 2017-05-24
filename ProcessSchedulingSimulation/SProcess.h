@@ -8,6 +8,5 @@ public:
 	~SProcess();
 	int runtime;
 	int taskLength;
-	list<
 };
 
