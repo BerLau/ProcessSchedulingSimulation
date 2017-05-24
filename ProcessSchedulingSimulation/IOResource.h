@@ -1,5 +1,6 @@
 #pragma once
-class IOResource
+#include "Resource.h"
+class IOResource : public Resource
 {
 public:
 	IOResource();

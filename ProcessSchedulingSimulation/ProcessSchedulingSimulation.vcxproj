@@ -117,7 +117,9 @@
     <ClInclude Include="MUtil.h" />
     <ClInclude Include="PQueues.h" />
     <ClInclude Include="PublicResource.h" />
+    <ClInclude Include="Resource.h" />
     <ClInclude Include="SCPU.h" />
+    <ClInclude Include="SharedResource.h" />
     <ClInclude Include="SProcess.h" />
   </ItemGroup>
   <ItemGroup>
@@ -129,7 +131,9 @@
     <ClCompile Include="MUtil.cpp" />
     <ClCompile Include="PQueues.cpp" />
     <ClCompile Include="PublicResource.cpp" />
+    <ClCompile Include="Resource.cpp" />
     <ClCompile Include="SCPU.cpp" />
+    <ClCompile Include="SharedResource.cpp" />
     <ClCompile Include="SProcess.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
