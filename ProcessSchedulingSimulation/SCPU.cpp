@@ -1,0 +1,16 @@
+#include "SCPU.h"
+
+
+
+SCPU::SCPU()
+{
+}
+
+
+SCPU::~SCPU()
+{
+}
+
+void SCPU::run(SProcess & p)
+{
+}
