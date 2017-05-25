@@ -1,9 +1,13 @@
 #include <iostream>
-#include <list>
-#include "MUtil.h"
+#include <fstream>
 using namespace std;
 int main() {
-	list<int> tem[5];
-	int s = std::cin.get();
-	return s;
+	ofstream fout;
+	fout.open("D:\\debugLogs\\pss.log", ios::app);
+	if (fout.is_open())
+	{
+		fout << "hello world";
+		fout.close();
+	}
+	cin.get();
 }
