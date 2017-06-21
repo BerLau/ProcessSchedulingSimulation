@@ -19,6 +19,5 @@ public:
 	~InterruptRegister();
 private:
 	int recorder;
-
 };
 

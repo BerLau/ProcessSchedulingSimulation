@@ -51,6 +51,9 @@
     <ClCompile Include="SProcess.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Resrepository.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="InterruptRegister.h">
@@ -84,6 +87,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="SProcess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resrepository.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

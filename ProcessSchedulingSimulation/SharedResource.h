@@ -1,6 +1,6 @@
 #pragma once
 #include "Resource.h"
-class SharedResource :
+class SharedResource:
 	public Resource
 {
 public:

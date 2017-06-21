@@ -57,7 +57,32 @@ void InterruptRegister::reset(ItrpType type)
 
 ItrpType InterruptRegister::getItrpType()
 {
-	int type=recorder
+	int index = 16;
+	while (index>0)
+	{
+		if (recorder&index) {
+			break;
+		}
+		else
+		{
+			index /= 2;
+		}
+	}
+	switch (index)
+	{
+	case 1:
+		return ItrpType::TIMEOUT;
+	case 2:
+		return ItrpType::CREATED;
+	case 4:
+		return ItrpType::BLOCKED;
+	case 8:
+		return ItrpType::FINISHED;
+	case 16:
+		return ItrpType::REVIVED;
+	default:
+		break;//这里有一点逻辑问题;
+	}
 }
 
 

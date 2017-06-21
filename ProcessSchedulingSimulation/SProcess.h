@@ -6,9 +6,13 @@ class SProcess
 {
 public:
 	SProcess();
+	SProcess(int p);
 	~SProcess();
-	int runtime;
-	int taskLength;
-	list<Resource> tasks;
+	virtual void doJob();
+	int priority;
+	list<int> tasks;
+private:
+	bool getResource(int r_id);
+	void releaseResource(int r_id);
 };
 

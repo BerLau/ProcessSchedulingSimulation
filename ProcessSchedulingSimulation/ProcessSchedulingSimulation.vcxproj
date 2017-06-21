@@ -119,6 +119,7 @@
     <ClCompile Include="PQueues.cpp" />
     <ClCompile Include="PublicResource.cpp" />
     <ClCompile Include="Resource.cpp" />
+    <ClCompile Include="Resrepository.cpp" />
     <ClCompile Include="SCPU.cpp" />
     <ClCompile Include="SharedResource.cpp" />
     <ClCompile Include="SProcess.cpp" />
@@ -132,6 +133,7 @@
     <ClInclude Include="PQueues.h" />
     <ClInclude Include="PublicResource.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="Resrepository.h" />
     <ClInclude Include="SCPU.h" />
     <ClInclude Include="SharedResource.h" />
     <ClInclude Include="SProcess.h" />
