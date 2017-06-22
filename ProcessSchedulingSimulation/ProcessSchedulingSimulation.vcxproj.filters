@@ -36,9 +36,6 @@
     <ClCompile Include="PQueues.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="PublicResource.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Resource.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -72,9 +69,6 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="PQueues.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="PublicResource.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Resource.h">

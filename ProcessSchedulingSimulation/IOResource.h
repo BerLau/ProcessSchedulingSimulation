@@ -3,6 +3,7 @@
 class IOResource : public Resource
 {
 public:
+	bool get();
 	IOResource();
 	~IOResource();
 };

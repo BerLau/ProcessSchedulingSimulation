@@ -1,5 +1,6 @@
 #pragma once
 #include "SProcess.h"
+#include "InterruptRegister.h"
 class SCPU
 {
 public:
@@ -8,5 +9,6 @@ public:
 	int commandLen;
 	int period;
 	void run(SProcess& p);
+	bool checkOut(InterruptRegister& resgiter);
 };
 

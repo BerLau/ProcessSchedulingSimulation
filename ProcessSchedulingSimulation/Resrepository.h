@@ -2,11 +2,11 @@
 #include <map>
 #include "Resource.h"
 using namespace std;
-class Resrepository
+class ResRepository
 {
 public:
-	Resrepository();
-	~Resrepository();
+	ResRepository();
+	~ResRepository();
 	static map<int,Resource> resList;
 	bool getRes(int id);
 	void releaseRes(int id);

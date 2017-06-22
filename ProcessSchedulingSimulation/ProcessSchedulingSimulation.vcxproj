@@ -117,7 +117,6 @@
     <ClCompile Include="MasterProcess.cpp" />
     <ClCompile Include="MUtil.cpp" />
     <ClCompile Include="PQueues.cpp" />
-    <ClCompile Include="PublicResource.cpp" />
     <ClCompile Include="Resource.cpp" />
     <ClCompile Include="Resrepository.cpp" />
     <ClCompile Include="SCPU.cpp" />
@@ -131,7 +130,6 @@
     <ClInclude Include="MasterProcess.h" />
     <ClInclude Include="MUtil.h" />
     <ClInclude Include="PQueues.h" />
-    <ClInclude Include="PublicResource.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="Resrepository.h" />
     <ClInclude Include="SCPU.h" />

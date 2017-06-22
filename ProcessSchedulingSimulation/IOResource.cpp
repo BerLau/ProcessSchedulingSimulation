@@ -2,6 +2,11 @@
 
 
 
+bool IOResource::get()
+{
+	return false;
+}
+
 IOResource::IOResource()
 {
 }

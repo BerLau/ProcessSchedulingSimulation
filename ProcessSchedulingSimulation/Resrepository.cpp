@@ -4,7 +4,7 @@
 
 
 
-Resrepository::Resrepository()
+ResRepository::ResRepository()
 {
 	for (int i=0;i<10;i++)
 	{
@@ -19,15 +19,15 @@ Resrepository::Resrepository()
 }
 
 
-Resrepository::~Resrepository()
+ResRepository::~ResRepository()
 {
 }
 
-bool Resrepository::getRes(int id)
+bool ResRepository::getRes(int id)
 {
 	return false;
 }
 
-void Resrepository::releaseRes(int id)
+void ResRepository::releaseRes(int id)
 {
 }
